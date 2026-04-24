@@ -168,6 +168,7 @@ jobs:
       - build_and_push_to_docker_hub
       - build_frontend_and_push_to_docker_hub
       - build_gateway_and_push_to_docker_hub
+      - deploy
 
     steps:
     - name: Send message
